@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html data-theme = 'light' lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- eb garamond font by google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- poppins font by google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- tailwind cdn link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- daisy ui cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome font -->
+    <script src="https://kit.fontawesome.com/caf423a0ab.js" crossorigin="anonymous"></script>
+    <title>Legal Justice</title>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                'gray': '#707070',
+                'primary-color': '#B68C5A',
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<style>
+    .eb-garamond {
+        font-family: "EB Garamond", serif;
+    }
+
+    .poppins {
+        font-family: "Poppins", serif;
+    }
+</style>
+
+<body>
+
+    <!-- header section start -->
+
+    <header class="lg:w-8/12 w-10/12 mx-auto">
+        <!-- nav section start -->
+
+        <nav class="flex items-center justify-between mt-12">
+            <!-- logo -->
+            <div>
+                <img src="./images/logo2.png" alt="">
+            </div>
+            <!-- link -->
+             <div class="flex gap-8 text-gray poppins">
+                <a href="#">Home</a>
+                <a href="#">Service <span class="pl-1"><i class="fa-solid fa-chevron-right"></i></span></a>
+                <a href="#">Case <span class="pl-1"><i class="fa-solid fa-chevron-right"></i></span></a>
+                <a href="#">Blog <span class="pl-1"><i class="fa-solid fa-chevron-right"></i></span></a>
+                <a href="#">Contact Us <span class="pl-1"><i class="fa-solid fa-chevron-right"></i></span></a>
+             </div>
+             <!-- btn -->
+              <div>
+                <button class="bg-primary-color text-white px-[30px] py-[18px] text-[18px] font-semibold rounded-lg poppins">Free Consultation</button>
+              </div>
+        </nav>
+    </header>
+</body>
+
+</html>
