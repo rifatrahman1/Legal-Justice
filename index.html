@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-theme = 'light' lang="en">
+<html data-theme='light' lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -26,17 +26,18 @@
     <title>Legal Justice</title>
     <script>
         tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                'gray': '#707070',
-                'primary-color': '#B68C5A',
-                clifford: '#da373d',
-              }
+            theme: {
+                extend: {
+                    colors: {
+                        'gray': '#707070',
+                        'primary-color': '#B68C5A',
+                        clifford: '#da373d',
+                    }
+                }
             }
-          }
         }
-      </script>
+
+    </script>
 </head>
 <style>
     .eb-garamond {
@@ -55,25 +56,114 @@
     <header class="lg:w-8/12 w-10/12 mx-auto">
         <!-- nav section start -->
 
-        <nav class="flex items-center justify-between mt-12">
+        <nav class="items-center justify-between mt-12 flex">
             <!-- logo -->
             <div>
                 <img src="./images/logo2.png" alt="">
             </div>
             <!-- link -->
-             <div class="flex gap-8 text-gray poppins">
+            <div class="lg:flex hidden gap-8 text-gray poppins ">
                 <a href="#">Home</a>
                 <a href="#">Service <span class="pl-1"><i class="fa-solid fa-chevron-right"></i></span></a>
                 <a href="#">Case <span class="pl-1"><i class="fa-solid fa-chevron-right"></i></span></a>
                 <a href="#">Blog <span class="pl-1"><i class="fa-solid fa-chevron-right"></i></span></a>
                 <a href="#">Contact Us <span class="pl-1"><i class="fa-solid fa-chevron-right"></i></span></a>
-             </div>
-             <!-- btn -->
-              <div>
-                <button class="bg-primary-color text-white px-[30px] py-[18px] text-[18px] font-semibold rounded-lg poppins">Free Consultation</button>
-              </div>
+            </div>
+            <!-- btn -->
+            <div>
+                <button
+                    class="bg-primary-color text-white px-[30px] py-[18px] text-[18px] font-semibold rounded-lg poppins">Free
+                    Consultation</button>
+            </div>
         </nav>
+
+        <!-- banner section start -->
+
+        <div class="h-[550px] w-full bg-cover bg-center mt-14 rounded-lg poppins"
+            style="background-image: linear-gradient(180deg, rgb(17, 17, 17), rgba(17, 17, 17, 0) 100%), url('./images/banner.png');">
+            <div class="flex flex-col items-center justify-center text-center h-full">
+                <h1 class="eb-garamond text-5xl lg:text-7xl text-white font-extrabold">We Provide Effective <br> Legal
+                    Solutions</h1>
+                <p class="text-[#E7E7E7] mt-6">There are many variations of passages of Lorem Ipsum available, but the
+                    majority <br> have suffered alteration in some form, by injected humour.</p>
+                <div class="mt-8">
+                    <input class="py-[19px] pl-5 rounded-lg text-[#A0A0A0] lg:w-[500px]" type="text" name="" id=""
+                        placeholder="Search Your Service">
+                    <input
+                        class="py-[19px] w-[150px] text-xl font-semibold text-white bg-primary-color ml-6 cursor-pointer pl-[45px] rounded-lg  type="
+                        button" value="Search">
+                </div>
+            </div>
+        </div>
+
     </header>
+
+    <main class="lg:w-8/12 w-10/12 mx-auto poppins">
+        <!-- the legal practice Area -->
+        <section class="mt-28">
+            <div class="text-center">
+                <h1 class="text-[40px] eb-garamond font-extrabold teaxt-[#414040]">The Legal Practice Area</h1>
+                <p class="text-gray mt-6">There are many variations of passages of Lorem Ipsum available, but the
+                    majority have <br>suffered alteration in some form, by injected humour.</p>
+            </div>
+            <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-16 lg:space-y-0 space-y-5">
+                <div
+                    class="text-center border border-[#E7E7E7] py-16 hover:bg-[linear-gradient(180deg,_rgb(243,_243,_243),_rgba(243,_243,_243,_0)_100%)]">
+                    <img class="mx-auto" src="./images/business.png" alt="">
+                    <h2 class="text-[#414040] text-[32px] eb-garamond font-extrabold mt-8">Business Law</h2>
+                    <p class="leading-6 text-gray mt-6">There are many variations of <br> passages of Lorem Ipsum <br>
+                        available, but the majority have <br> suffered alteration in some form, <br> by injected humour.
+                    </p>
+                    <img class="mx-auto mt-9" src="./images/Frame.png" alt="">
+                </div>
+                <div
+                    class="text-center border border-[#E7E7E7] py-16 hover:bg-[linear-gradient(180deg,_rgb(243,_243,_243),_rgba(243,_243,_243,_0)_100%)]">
+                    <img class="mx-auto" src="./images/criminal.png" alt="">
+                    <h2 class="text-[#414040] text-[32px] eb-garamond font-extrabold mt-8">Criminal Law</h2>
+                    <p class="leading-6 text-gray mt-6">There are many variations of <br> passages of Lorem Ipsum <br>
+                        available, but the majority have <br> suffered alteration in some form, <br> by injected humour.
+                    </p>
+                    <img class="mx-auto mt-9" src="./images/Frame.png" alt="">
+                </div>
+                <div
+                    class="text-center border border-[#E7E7E7] py-16 hover:bg-[linear-gradient(180deg,_rgb(243,_243,_243),_rgba(243,_243,_243,_0)_100%)]">
+                    <img class="mx-auto" src="./images/child.png" alt="">
+                    <h2 class="text-[#414040] text-[32px] eb-garamond font-extrabold mt-8">Child Support</h2>
+                    <p class="leading-6 text-gray mt-6">There are many variations of <br> passages of Lorem Ipsum <br>
+                        available, but the majority have <br> suffered alteration in some form, <br> by injected humour.
+                    </p>
+                    <img class="mx-auto mt-9" src="./images/Frame.png" alt="">
+                </div>
+                <div
+                    class="text-center border border-[#E7E7E7] py-16 hover:bg-[linear-gradient(180deg,_rgb(243,_243,_243),_rgba(243,_243,_243,_0)_100%)]">
+                    <img class="mx-auto" src="./images/education.png" alt="">
+                    <h2 class="text-[#414040] text-[32px] eb-garamond font-extrabold mt-8">Education Law</h2>
+                    <p class="leading-6 text-gray mt-6">There are many variations of <br> passages of Lorem Ipsum <br>
+                        available, but the majority have <br> suffered alteration in some form, <br> by injected humour.
+                    </p>
+                    <img class="mx-auto mt-9" src="./images/Frame.png" alt="">
+                </div>
+                <div
+                    class="text-center border border-[#E7E7E7] py-16 hover:bg-[linear-gradient(180deg,_rgb(243,_243,_243),_rgba(243,_243,_243,_0)_100%)]">
+                    <img class="mx-auto" src="./images/divorce.png" alt="">
+                    <h2 class="text-[#414040] text-[32px] eb-garamond font-extrabold mt-8">Divorce Law</h2>
+                    <p class="leading-6 text-gray mt-6">There are many variations of <br> passages of Lorem Ipsum <br>
+                        available, but the majority have <br> suffered alteration in some form, <br> by injected humour.
+                    </p>
+                    <img class="mx-auto mt-9" src="./images/Frame.png" alt="">
+                </div>
+                <div
+                    class="text-center border border-[#E7E7E7] py-16 hover:bg-[linear-gradient(180deg,_rgb(243,_243,_243),_rgba(243,_243,_243,_0)_100%)]">
+                    <img class="mx-auto" src="./images/tax.png" alt="">
+                    <h2 class="text-[#414040] text-[32px] eb-garamond font-extrabold mt-8">Tax Law</h2>
+                    <p class="leading-6 text-gray mt-6">There are many variations of <br> passages of Lorem Ipsum <br>
+                        available, but the majority have <br> suffered alteration in some form, <br> by injected humour.
+                    </p>
+                    <img class="mx-auto mt-9" src="./images/Frame.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
